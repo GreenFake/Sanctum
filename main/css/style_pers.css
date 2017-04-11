@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Lato', san-serif;
+	font-weight: 300;
+}
+body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+	a {
+		text-decoration: none;
+		color: white;
+	}
+	main {
+			max-width: 100%;
+			position: relative;
+		}
+
+	@keyframes slide {
+		0% {
+			width: 100%;
+		}
+		100% {
+			width: 80%;
+			margin-right: 20%;
+		}
+	} 
+
+		.chapter {
+			width: 100%;
+			height: 50px;
+			background: black;
+		}
+
+		h1.chap_title {
+			color: white;
+			margin-left: 3%;
+		}
+
+		#folder {
+			font-size: 1em;
+			cursor: pointer;
+			padding-right: 15px;
+		}
+
+			table {
+				border: 1px solid black;
+				border-collapse: collapse;
+				width: 100%;
+			}
+				table.sided {
+					width: 80%;
+				}
+
+				th {
+					background-color: #4A4A4A;
+					text-align: center;
+					color: white;
+					font-size: 1.5em;
+				}
+				td {
+					text-align: center;
+					border-bottom: 1px solid black;
+				}
+				tr {
+					background-color: grey;
+					margin-top: 
+				}
+				tr:nth-child(even) {
+					background-color: white;
+				}
+
+	aside {
+		position: absolute;
+		background-color: white;
+		height: 500px;
+		width: 0;
+		top: 50px;
+		right: 0;
+		border: 1px solid black;
+	}
+		
+	.slide_bar {
+		
+	}
+		.filter_head {
+			height: 50px;
+			line-height: 50px;
+			border-left: 30px solid black;
+			border-bottom: 1px solid black;
+			display: none;
+		}
+			h4.slide_title {
+				font-size: 2em;
+				margin-left: 10px;
+			}
+
+		.main_slide_cont {
+			margin: 20px auto;
+			width: 90%;
+			clear: both;
+			display: none;
+		}
+			h4.select_title {
+				float: left;
+				clear: left;
+				margin-bottom: 20px;
+			}
+			select.filter_selector {
+				float: right;
+				width: 100px;
+				clear: right;
+				margin-bottom: 20px;
+			}
+		
