@@ -19,16 +19,10 @@
 				<h1 class="sanctum">Sanctum Web Application</h1>
 				<div id="chaper_menu">
 					<h3 class="chapter" id="hr">Human resourses</h3>
-					<h3 class="chapter" id="eq">Equipment</h3>
+					<h3 class="chapter" id="eq">Instruments</h3>
 					<h3 class="chapter">Tags</h3>
 					<h3 class="chapter">Certificates</h3>
 				</div>
-			</div>
-			<div class="search">
-				<input type="search" placeholder="search...">
-				<button id="filter_call">
-					<i class="fa fa-filter" aria-hidden="true"></i>
-				</button>
 			</div>
 		</div>
 	</header>
@@ -37,7 +31,6 @@
 	</div>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" defer></script>
 	<script type="text/javascript" src="script/actions.js" defer></script>
-	<script type="text/javascript" src="jquery.table-filterable.js" defer></script>
 	<script type="text/javascript" src="script/filter.js" defer></script>
 	<script type="text/javascript" src="script/side_bar_call.js" defer></script>
 </body>

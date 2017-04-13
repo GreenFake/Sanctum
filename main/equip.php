@@ -11,9 +11,17 @@
 </head>
 <body>
 	<main>
-		<div class="chapter">
-			<h1 class="chap_title">Equipment</h1>
-		</div>
+		<header class="chapter_head">
+			<div class="chapter">
+				<h1 class="chap_title">Instruments</h1>
+			</div>
+			<div class="search">
+				<i class="fa fa-plus right" aria-hidden="true" id="addIcon"></i>
+				<input type="search" placeholder="search...">
+				<i id="filter_call" class="fa fa-filter" aria-hidden="true" role="button"></i>
+				<i class="right fa fa-search" aria-hidden="true" id="searchIcon"></i>
+			</div>
+		</header>
 			<table class="info_table">
 				<thead>
 					<tr>
@@ -107,8 +115,7 @@
 		</aside>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script type="text/javascript" src="script/actions.js" defer></script>
-		<script type="text/javascript" src="script/jquery.table-filterable.js"></script>
-		<script type="text/javascript" src="script/filter.js"></script>
 		<script type="text/javascript" src="script/side_bar_call.js" defer></script>
+		<script type="text/javascript" src="script/filter.js" defer></script>
 </body>
 </html>

@@ -5,10 +5,10 @@ $(document).ready(function() {
 
 	caller_btn.click(function(e) {
 		var caller = e.currentTarget;
-		var slider = $(frames['chapter_container'].document).find('#filter_slide');
-		var table  = $(frames['chapter_container'].document).find('.info_table');
-		var cont   = $(frames['chapter_container'].document).find('.main_slide_cont');	
-		var head 	 = $(frames['chapter_container'].document).find('.filter_head');
+		var slider = $('#filter_slide');
+		var table  = $('.info_table');
+		var cont   = $('.main_slide_cont');	
+		var head 	 = $('.filter_head');
 
 		if (!caller.classList.contains('active')) {
 			caller.classList.add('active');
