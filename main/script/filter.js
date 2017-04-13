@@ -11,11 +11,6 @@ $('#exe_filter').click(function(event) {
 	for (i = 0; i < tb_name.length; i ++) {
 		var eval_name = tb_name[i].innerText;
 		console.log(eval_name);
-
-		if (eval_name !== name) {
-				tb_name.css('display', 'none');
-		}
-
 	}
 
 	console.log(name);
